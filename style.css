@@ -1,0 +1,201 @@
+.parentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.items {
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(212, 212, 233);
+}
+
+a {
+    text-decoration: none;
+}
+
+.options {
+    margin-right: 30px;
+}
+
+.logo {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    background-image: url(./image.jpg);
+    padding-top: 20px;
+}
+
+.body {
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+.desc {
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+    margin: 0 !important;
+}
+
+.name {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0 !important;
+}
+
+.desc2 {
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+    margin: 0 !important;
+    margin-top: 10px !important;
+}
+
+.desc3 {
+    color: white;
+    font-size: 17px;
+    margin: 0 !important;
+    margin-top: 10px !important;
+    font-style: italic;
+}
+
+.btn {
+    background-color: black !important;
+    width: 150px;
+    height: 50px;
+    color: yellow !important;
+    margin-top: 20px;
+}
+
+.aboutContainer {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* background-color: red; */
+}
+
+.aboutme {
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    color: blue;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    height: 30px;
+    width: 100px;
+}
+
+.name2 {
+    color: black;
+    font-style: italic;
+    margin-left: 10px !important;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+    width: 70%;
+    text-justify: justify;
+}
+
+.para2 {
+    text-align: center;
+    width: 1000px;
+    text-justify: justify;
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+
+.skills {
+    width: 100%;
+    background-image: url(IMAGE4.jpeg);
+    padding-top: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.skillstitle {
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    color: rgb(185, 224, 12);
+    background-color: black;
+    width: 70px;
+}
+
+.myskills {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.prtContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgContainer {
+    width: 300px;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.prtImg {
+    width: inherit;
+    height: inherit;
+}
+
+.containerContact {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    background-image: url(image.jpg);
+    height: 600px;
+}
+
+.inputs {
+    border: 1px solid black;
+    margin-top: 15px;
+    width: 280px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: blue;
+}
+
+.descoput {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.linebreak {
+    height: 500px;
+}
